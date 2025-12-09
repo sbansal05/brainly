@@ -1,4 +1,4 @@
-import { ShareIcon } from "../icons/Shareicon";
+import { ShareIcon } from "../icons/ShareIcon";
 
 interface CardProps {
     title: string;

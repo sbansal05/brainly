@@ -10,7 +10,7 @@ interface ButtonProps {
 
 const variantClasses = {
     "primary": "bg-indigo-800 text-white",
-    "secondary": "bg-indigo-200 text-indigo-800"
+    "secondary": "bg-indigo-200 text-indigo-900"
 };
 
 const defaultStyles = "px-4 py-2 rounded-md font-light flex items-center";
