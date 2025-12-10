@@ -1,7 +1,7 @@
 import mongoose from "mongoose"
 import {model, Schema} from "mongoose"
 
-mongoose.connect("mongodb+srv://sb5bansal:sb5bansal@cluster0.3rb7q6o.mongodb.net/brainly")
+mongoose.connect("")
 const UserSchema = new Schema({
     username: {type: String, unique: true},
     password: String
