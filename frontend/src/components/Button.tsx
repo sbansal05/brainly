@@ -11,8 +11,8 @@ interface ButtonProps {
 }
 
 const variantClasses = {
-    "primary": "bg-indigo-800 text-white",
-    "secondary": "bg-indigo-200 text-indigo-900"
+    "primary": "bg-indigo-800 text-white cursor-pointer",
+    "secondary": "bg-indigo-200 text-indigo-900 cursor-pointer"
 };
 
 const defaultStyles = "px-4 py-2 rounded-md font-light flex items-center";

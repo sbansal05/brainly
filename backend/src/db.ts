@@ -1,7 +1,10 @@
 import mongoose from "mongoose"
 import {model, Schema} from "mongoose"
+import dotenv from "dotenv";
+dotenv.config();
+    //@ts-ignore
+mongoose.connect(process.env.MONGO_URL)
 
-mongoose.connect("")
 const UserSchema = new Schema({
     username: {type: String, unique: true},
     password: String

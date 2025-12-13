@@ -1,12 +1,14 @@
 import express from "express";
-import mongoose from "mongoose";
 import jwt from "jsonwebtoken";
 import { UserModel, ContentModel, LinkModel } from "./db.js";
 import { userMiddleware } from "./middleware.js"
 import { JWT_PASSWORD } from "./config.js"
 import { random } from "./utils.js";
+import cors from "cors"
+
 const app = express();
 app.use(express.json());
+app.use(cors());
 
 app.post("/api/v1/signup", async (req, res) => {
 //zod validation
